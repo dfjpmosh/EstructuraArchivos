@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1312609-9B77-4503-B7CA-9E99E36139F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Diccionario</RootNamespace>
+    <AssemblyName>Diccionario</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CArchivo.cs" />
+    <Compile Include="CAtributo.cs" />
+    <Compile Include="CBloque.cs" />
+    <Compile Include="CCubetaH.cs" />
+    <Compile Include="CEntidad.cs" />
+    <Compile Include="CHash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHash.Designer.cs">
+      <DependentUpon>CHash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIndiceSI.cs" />
+    <Compile Include="CIngDatHE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIngDatHE.Designer.cs">
+      <DependentUpon>CIngDatHE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIngDatMll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIngDatMll.Designer.cs">
+      <DependentUpon>CIngDatMll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIngDatSI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIngDatSI.Designer.cs">
+      <DependentUpon>CIngDatSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CIngreDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIngreDat.Designer.cs">
+      <DependentUpon>CIngreDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMantenimiento.cs" />
+    <Compile Include="CModHsDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CModHsDat.Designer.cs">
+      <DependentUpon>CModHsDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CModMlDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CModMlDat.Designer.cs">
+      <DependentUpon>CModMlDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CModSDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CModSDat.Designer.cs">
+      <DependentUpon>CModSDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CModSIDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CModSIDat.Designer.cs">
+      <DependentUpon>CModSIDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMultillave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMultillave.Designer.cs">
+      <DependentUpon>CMultillave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSecIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSecIndex.Designer.cs">
+      <DependentUpon>CSecIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CSecuencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSecuencial.Designer.cs">
+      <DependentUpon>CSecuencial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAltaAtr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAltaAtr.Designer.cs">
+      <DependentUpon>DAltaAtr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBajaAtr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBajaAtr.Designer.cs">
+      <DependentUpon>DBajaAtr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBajaEnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBajaEnt.Designer.cs">
+      <DependentUpon>DBajaEnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DMClaveP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMClaveP.Designer.cs">
+      <DependentUpon>DMClaveP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DModificaAtr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DModificaAtr.Designer.cs">
+      <DependentUpon>DModificaAtr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DModificarEnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DModificarEnt.Designer.cs">
+      <DependentUpon>DModificarEnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DNombre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DNombre.Designer.cs">
+      <DependentUpon>DNombre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CHash.resx">
+      <DependentUpon>CHash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIngDatHE.resx">
+      <DependentUpon>CIngDatHE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIngDatMll.resx">
+      <DependentUpon>CIngDatMll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIngDatSI.resx">
+      <DependentUpon>CIngDatSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIngreDat.resx">
+      <DependentUpon>CIngreDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CModHsDat.resx">
+      <DependentUpon>CModHsDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CModMlDat.resx">
+      <DependentUpon>CModMlDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CModSDat.resx">
+      <DependentUpon>CModSDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CModSIDat.resx">
+      <DependentUpon>CModSIDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMultillave.resx">
+      <DependentUpon>CMultillave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSecIndex.resx">
+      <DependentUpon>CSecIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CSecuencial.resx">
+      <DependentUpon>CSecuencial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAltaAtr.resx">
+      <DependentUpon>DAltaAtr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBajaAtr.resx">
+      <DependentUpon>DBajaAtr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBajaEnt.resx">
+      <DependentUpon>DBajaEnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMClaveP.resx">
+      <DependentUpon>DMClaveP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DModificaAtr.resx">
+      <DependentUpon>DModificaAtr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DModificarEnt.resx">
+      <DependentUpon>DModificarEnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DNombre.resx">
+      <DependentUpon>DNombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Umbrella_Corporation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boys Car 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biohazard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1 copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uaslpG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\+1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nueva Carpeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nueva Carpeta1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abrir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AltaEntidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BajaEntidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModificarEntidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AltaAtributo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BajaAtributo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModificarAtributo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mantenimiento.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

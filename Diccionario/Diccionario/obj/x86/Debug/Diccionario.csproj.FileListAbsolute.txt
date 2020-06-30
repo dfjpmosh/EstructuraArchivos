@@ -1,0 +1,110 @@
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\bin\Debug\Diccionario.exe
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\bin\Debug\Diccionario.pdb
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Diccionario.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Properties.Resources.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.exe
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.pdb
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DNombre.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaEnt.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificarEnt.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DAltaAtr.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaAtr.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificaAtr.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DMClaveP.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecuencial.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngreDat.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSDat.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecIndex.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatSI.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSIDat.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CHash.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatHE.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModHsDat.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatMll.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModMlDat.resources
+C:\Users\dfjp\Documents\Visual Studio 2010\Projects\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CMultillave.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.exe
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.pdb
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\bin\Debug\Diccionario.exe
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\bin\Debug\Diccionario.pdb
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CHash.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatHE.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatMll.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatSI.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngreDat.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModHsDat.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModMlDat.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSDat.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSIDat.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CMultillave.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecIndex.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecuencial.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DAltaAtr.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaAtr.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaEnt.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DMClaveP.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificaAtr.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificarEnt.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DNombre.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Diccionario.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Properties.Resources.resources
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.exe
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.pdb
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\bin\Debug\Diccionario.exe
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\bin\Debug\Diccionario.pdb
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CHash.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatHE.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatMll.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatSI.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngreDat.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModHsDat.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModMlDat.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSDat.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSIDat.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CMultillave.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecIndex.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecuencial.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DAltaAtr.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaAtr.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaEnt.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DMClaveP.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificaAtr.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificarEnt.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DNombre.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Diccionario.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Properties.Resources.resources
+D:\UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.csproj.GenerateResource.Cache
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.exe
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.pdb
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\bin\Debug\Diccionario.exe
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\bin\Debug\Diccionario.pdb
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CHash.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatHE.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatMll.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngDatSI.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CIngreDat.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModHsDat.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModMlDat.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSDat.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CModSIDat.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CMultillave.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecIndex.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.CSecuencial.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DAltaAtr.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaAtr.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DBajaEnt.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DMClaveP.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificaAtr.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DModificarEnt.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.DNombre.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Diccionario.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\Diccionario.Properties.Resources.resources
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Proyectos UASLP\PROYECTO DE ESTRUCTURA DE ARCHIVOS\Diccionario\Diccionario\obj\x86\Debug\GenerateResource.write.1.tlog

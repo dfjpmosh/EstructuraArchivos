@@ -1,0 +1,244 @@
+\hypertarget{class_diccionario_1_1_c_archivo}{\section{Referencia de la Clase Diccionario.\-C\-Archivo}
+\label{class_diccionario_1_1_c_archivo}\index{Diccionario.\-C\-Archivo@{Diccionario.\-C\-Archivo}}
+}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_aa2a454a20d3efba9d4e0f743d502dbfd}{Crear\-\_\-\-Archivo} (long cab)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_afb4bd91b2d9d2caf113f5db15690a0ee}{Escribecab} (long cab)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_ae0adcec477f418b897b4215b37c852bc}{Escribe\-Entidad} (\hyperlink{class_diccionario_1_1_c_entidad}{C\-Entidad} ent)
+\item 
+List$<$ \hyperlink{class_diccionario_1_1_c_entidad}{C\-Entidad} $>$ \hyperlink{class_diccionario_1_1_c_archivo_a37133dbd0cae460592b708fe171eb3c1}{abrir\-Archivo} (string nombre, long ca)
+\item 
+List$<$ \hyperlink{class_diccionario_1_1_c_atributo}{C\-Atributo} $>$ \hyperlink{class_diccionario_1_1_c_archivo_a465fa860bddeeea4b33f3be2c0458986}{abrir\-Archivo\-Atributo} (string nombre, \hyperlink{class_diccionario_1_1_c_entidad}{C\-Entidad} ent)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_aa9ebfa9fd73864ceb0128cd5bc1bd47d}{Escribe\-Atributo} (\hyperlink{class_diccionario_1_1_c_atributo}{C\-Atributo} a)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_acbd23f567ed6728ff1b6746ddf047ec1}{Escribe\-Bloque} (\hyperlink{class_diccionario_1_1_c_bloque}{C\-Bloque} b)
+\item 
+byte\mbox{[}$\,$\mbox{]} \hyperlink{class_diccionario_1_1_c_archivo_a041611a8aee04b613a066906c4d641f0}{Lee\-Bloque} (string \hyperlink{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}{Nombre}, int tam, long dir)
+\item 
+long \hyperlink{class_diccionario_1_1_c_archivo_a83c07d2c18588e2c62df36f553c71cd0}{Direccion} (string nom)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_adbfe2a5fc7bbacf1e851d8b65a3210d5}{Escribe\-Indice\-S\-I} (\hyperlink{class_diccionario_1_1_c_indice_s_i}{C\-Indice\-S\-I} i)
+\item 
+List$<$ \hyperlink{class_diccionario_1_1_c_indice_s_i}{C\-Indice\-S\-I} $>$ \hyperlink{class_diccionario_1_1_c_archivo_af9ef6c651134c8312d7929d63ceb3bdd}{abrir\-Archivo\-Indice} (string nombre, \hyperlink{class_diccionario_1_1_c_entidad}{C\-Entidad} ent)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_a005d9d4a71e1a563c5305d795554cb35}{Escribetabla\-Hash} (long\mbox{[}$\,$\mbox{]} ta, string \hyperlink{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}{Nombre}, int tam, long dir)
+\item 
+long\mbox{[}$\,$\mbox{]} \hyperlink{class_diccionario_1_1_c_archivo_ad50614f8f77c4d6e732e01e72fc5f344}{Lee\-Tabla\-Hash} (string \hyperlink{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}{Nombre}, int tam, long dir)
+\item 
+void \hyperlink{class_diccionario_1_1_c_archivo_a0502d7e0f3ba5a400aa54980dfb590bd}{Escribe\-Cubeta} (\hyperlink{class_diccionario_1_1_c_cubeta_h}{C\-Cubeta\-H} cub, string \hyperlink{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}{Nombre})
+\item 
+List$<$ \hyperlink{class_diccionario_1_1_c_cubeta_h}{C\-Cubeta\-H} $>$ \hyperlink{class_diccionario_1_1_c_archivo_a71220f2aa24599fda8436e8d502e8a8f}{abrir\-Archivo\-Cubeta} (string nombre, long dir, int tam)
+\end{DoxyCompactItemize}
+\subsection*{Propiedades}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}{Nombre}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+
+
+Definición en la línea 15 del archivo C\-Archivo.\-cs.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\hypertarget{class_diccionario_1_1_c_archivo_a37133dbd0cae460592b708fe171eb3c1}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!abrir\-Archivo@{abrir\-Archivo}}
+\index{abrir\-Archivo@{abrir\-Archivo}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{abrir\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf C\-Entidad}$>$ Diccionario.\-C\-Archivo.\-abrir\-Archivo (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre, }
+\item[{long}]{ca}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a37133dbd0cae460592b708fe171eb3c1}
+
+
+Definición en la línea 81 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_a465fa860bddeeea4b33f3be2c0458986}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!abrir\-Archivo\-Atributo@{abrir\-Archivo\-Atributo}}
+\index{abrir\-Archivo\-Atributo@{abrir\-Archivo\-Atributo}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{abrir\-Archivo\-Atributo}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf C\-Atributo}$>$ Diccionario.\-C\-Archivo.\-abrir\-Archivo\-Atributo (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre, }
+\item[{{\bf C\-Entidad}}]{ent}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a465fa860bddeeea4b33f3be2c0458986}
+
+
+Definición en la línea 134 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_a71220f2aa24599fda8436e8d502e8a8f}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!abrir\-Archivo\-Cubeta@{abrir\-Archivo\-Cubeta}}
+\index{abrir\-Archivo\-Cubeta@{abrir\-Archivo\-Cubeta}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{abrir\-Archivo\-Cubeta}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf C\-Cubeta\-H}$>$ Diccionario.\-C\-Archivo.\-abrir\-Archivo\-Cubeta (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre, }
+\item[{long}]{dir, }
+\item[{int}]{tam}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a71220f2aa24599fda8436e8d502e8a8f}
+
+
+Definición en la línea 375 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_af9ef6c651134c8312d7929d63ceb3bdd}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!abrir\-Archivo\-Indice@{abrir\-Archivo\-Indice}}
+\index{abrir\-Archivo\-Indice@{abrir\-Archivo\-Indice}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{abrir\-Archivo\-Indice}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf C\-Indice\-S\-I}$>$ Diccionario.\-C\-Archivo.\-abrir\-Archivo\-Indice (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre, }
+\item[{{\bf C\-Entidad}}]{ent}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_af9ef6c651134c8312d7929d63ceb3bdd}
+
+
+Definición en la línea 269 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_aa2a454a20d3efba9d4e0f743d502dbfd}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Crear\-\_\-\-Archivo@{Crear\-\_\-\-Archivo}}
+\index{Crear\-\_\-\-Archivo@{Crear\-\_\-\-Archivo}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Crear\-\_\-\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Crear\-\_\-\-Archivo (
+\begin{DoxyParamCaption}
+\item[{long}]{cab}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_aa2a454a20d3efba9d4e0f743d502dbfd}
+
+
+Definición en la línea 25 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_a83c07d2c18588e2c62df36f553c71cd0}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Direccion@{Direccion}}
+\index{Direccion@{Direccion}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Direccion}]{\setlength{\rightskip}{0pt plus 5cm}long Diccionario.\-C\-Archivo.\-Direccion (
+\begin{DoxyParamCaption}
+\item[{string}]{nom}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a83c07d2c18588e2c62df36f553c71cd0}
+
+
+Definición en la línea 236 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_aa9ebfa9fd73864ceb0128cd5bc1bd47d}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribe\-Atributo@{Escribe\-Atributo}}
+\index{Escribe\-Atributo@{Escribe\-Atributo}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribe\-Atributo}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribe\-Atributo (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-Atributo}}]{a}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_aa9ebfa9fd73864ceb0128cd5bc1bd47d}
+
+
+Definición en la línea 183 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_acbd23f567ed6728ff1b6746ddf047ec1}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribe\-Bloque@{Escribe\-Bloque}}
+\index{Escribe\-Bloque@{Escribe\-Bloque}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribe\-Bloque}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribe\-Bloque (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-Bloque}}]{b}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_acbd23f567ed6728ff1b6746ddf047ec1}
+
+
+Definición en la línea 204 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_afb4bd91b2d9d2caf113f5db15690a0ee}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribecab@{Escribecab}}
+\index{Escribecab@{Escribecab}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribecab}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribecab (
+\begin{DoxyParamCaption}
+\item[{long}]{cab}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_afb4bd91b2d9d2caf113f5db15690a0ee}
+
+
+Definición en la línea 47 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_a0502d7e0f3ba5a400aa54980dfb590bd}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribe\-Cubeta@{Escribe\-Cubeta}}
+\index{Escribe\-Cubeta@{Escribe\-Cubeta}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribe\-Cubeta}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribe\-Cubeta (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-Cubeta\-H}}]{cub, }
+\item[{string}]{Nombre}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a0502d7e0f3ba5a400aa54980dfb590bd}
+
+
+Definición en la línea 358 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_ae0adcec477f418b897b4215b37c852bc}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribe\-Entidad@{Escribe\-Entidad}}
+\index{Escribe\-Entidad@{Escribe\-Entidad}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribe\-Entidad}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribe\-Entidad (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-Entidad}}]{ent}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_ae0adcec477f418b897b4215b37c852bc}
+
+
+Definición en la línea 62 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_adbfe2a5fc7bbacf1e851d8b65a3210d5}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribe\-Indice\-S\-I@{Escribe\-Indice\-S\-I}}
+\index{Escribe\-Indice\-S\-I@{Escribe\-Indice\-S\-I}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribe\-Indice\-S\-I}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribe\-Indice\-S\-I (
+\begin{DoxyParamCaption}
+\item[{{\bf C\-Indice\-S\-I}}]{i}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_adbfe2a5fc7bbacf1e851d8b65a3210d5}
+
+
+Definición en la línea 252 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_a005d9d4a71e1a563c5305d795554cb35}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Escribetabla\-Hash@{Escribetabla\-Hash}}
+\index{Escribetabla\-Hash@{Escribetabla\-Hash}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Escribetabla\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}void Diccionario.\-C\-Archivo.\-Escribetabla\-Hash (
+\begin{DoxyParamCaption}
+\item[{long\mbox{[}$\,$\mbox{]}}]{ta, }
+\item[{string}]{Nombre, }
+\item[{int}]{tam, }
+\item[{long}]{dir}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a005d9d4a71e1a563c5305d795554cb35}
+
+
+Definición en la línea 324 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_a041611a8aee04b613a066906c4d641f0}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Lee\-Bloque@{Lee\-Bloque}}
+\index{Lee\-Bloque@{Lee\-Bloque}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Lee\-Bloque}]{\setlength{\rightskip}{0pt plus 5cm}byte \mbox{[}$\,$\mbox{]} Diccionario.\-C\-Archivo.\-Lee\-Bloque (
+\begin{DoxyParamCaption}
+\item[{string}]{Nombre, }
+\item[{int}]{tam, }
+\item[{long}]{dir}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_a041611a8aee04b613a066906c4d641f0}
+
+
+Definición en la línea 219 del archivo C\-Archivo.\-cs.
+
+\hypertarget{class_diccionario_1_1_c_archivo_ad50614f8f77c4d6e732e01e72fc5f344}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Lee\-Tabla\-Hash@{Lee\-Tabla\-Hash}}
+\index{Lee\-Tabla\-Hash@{Lee\-Tabla\-Hash}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Lee\-Tabla\-Hash}]{\setlength{\rightskip}{0pt plus 5cm}long \mbox{[}$\,$\mbox{]} Diccionario.\-C\-Archivo.\-Lee\-Tabla\-Hash (
+\begin{DoxyParamCaption}
+\item[{string}]{Nombre, }
+\item[{int}]{tam, }
+\item[{long}]{dir}
+\end{DoxyParamCaption}
+)}}\label{class_diccionario_1_1_c_archivo_ad50614f8f77c4d6e732e01e72fc5f344}
+
+
+Definición en la línea 340 del archivo C\-Archivo.\-cs.
+
+
+
+\subsection{Documentación de propiedades}
+\hypertarget{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}{\index{Diccionario\-::\-C\-Archivo@{Diccionario\-::\-C\-Archivo}!Nombre@{Nombre}}
+\index{Nombre@{Nombre}!Diccionario::CArchivo@{Diccionario\-::\-C\-Archivo}}
+\subsubsection[{Nombre}]{\setlength{\rightskip}{0pt plus 5cm}string Diccionario.\-C\-Archivo.\-Nombre\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_diccionario_1_1_c_archivo_ae35f848874ff23f326c7fdbd5cc62f30}
+
+
+Definición en la línea 40 del archivo C\-Archivo.\-cs.
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+Diccionario/\hyperlink{_c_archivo_8cs}{C\-Archivo.\-cs}\end{DoxyCompactItemize}

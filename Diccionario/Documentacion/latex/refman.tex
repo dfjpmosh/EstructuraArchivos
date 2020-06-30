@@ -1,0 +1,230 @@
+\documentclass[twoside]{book}
+
+% Packages required by doxygen
+\usepackage{calc}
+\usepackage{doxygen}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage[table]{xcolor}
+
+% NLS support packages
+\usepackage[spanish]{babel}
+% Font selection
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{amssymb}
+\usepackage{sectsty}
+\renewcommand{\familydefault}{\sfdefault}
+\allsectionsfont{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+\renewcommand{\DoxyLabelFont}{%
+  \fontseries{bc}\selectfont%
+  \color{darkgray}%
+}
+
+% Page & text layout
+\usepackage{geometry}
+\geometry{%
+  a4paper,%
+  top=2.5cm,%
+  bottom=2.5cm,%
+  left=2.5cm,%
+  right=2.5cm%
+}
+\tolerance=750
+\hfuzz=15pt
+\hbadness=750
+\setlength{\emergencystretch}{15pt}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.2cm}
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@parafont%
+  }%
+}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{0ex}{-1.0ex}{1.0ex}{%
+    \normalfont\normalsize\bfseries\SS@subparafont%
+  }%
+}
+\makeatother
+
+% Headers & footers
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead[LE]{\fancyplain{}{\bfseries\thepage}}
+\fancyhead[CE]{\fancyplain{}{}}
+\fancyhead[RE]{\fancyplain{}{\bfseries\leftmark}}
+\fancyhead[LO]{\fancyplain{}{\bfseries\rightmark}}
+\fancyhead[CO]{\fancyplain{}{}}
+\fancyhead[RO]{\fancyplain{}{\bfseries\thepage}}
+\fancyfoot[LE]{\fancyplain{}{}}
+\fancyfoot[CE]{\fancyplain{}{}}
+\fancyfoot[RE]{\fancyplain{}{\bfseries\scriptsize Generado el Domingo, 16 de Junio de 2013 19:52:28 para Proyecto Estrutura de Archivos por Doxygen }}
+\fancyfoot[LO]{\fancyplain{}{\bfseries\scriptsize Generado el Domingo, 16 de Junio de 2013 19:52:28 para Proyecto Estrutura de Archivos por Doxygen }}
+\fancyfoot[CO]{\fancyplain{}{}}
+\fancyfoot[RO]{\fancyplain{}{}}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{#1}{}%
+}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\thesection\ #1}%
+}
+
+% Indices & bibliography
+\usepackage{natbib}
+\usepackage[titles]{tocloft}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{5}
+\makeindex
+
+% Hyperlinks (required, but should be loaded last)
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex,pagebackref=true]{hyperref}
+\else
+  \usepackage[ps2pdf,pagebackref=true]{hyperref}
+\fi
+\hypersetup{%
+  colorlinks=true,%
+  linkcolor=blue,%
+  citecolor=blue,%
+  unicode%
+}
+
+% Custom commands
+\newcommand{\clearemptydoublepage}{%
+  \newpage{\pagestyle{empty}\cleardoublepage}%
+}
+
+
+%===== C O N T E N T S =====
+
+\begin{document}
+
+% Titlepage & ToC
+\hypersetup{pageanchor=false}
+\pagenumbering{roman}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}%
+{\Large Proyecto Estrutura de Archivos }\\
+\vspace*{1cm}
+{\large Generado por Doxygen 1.8.4}\\
+\vspace*{0.5cm}
+{\small Domingo, 16 de Junio de 2013 19:52:28}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true}
+
+%--- Begin generated contents ---
+\chapter{Indice de namespaces}
+\input{namespaces}
+\chapter{Indice jerárquico}
+\input{hierarchy}
+\chapter{Índice de clases}
+\input{annotated}
+\chapter{Indice de archivos}
+\input{files}
+\chapter{Documentación de namespaces}
+\input{namespace_diccionario}
+\chapter{Documentación de las clases}
+\input{class_diccionario_1_1_c_archivo}
+\input{class_diccionario_1_1_c_atributo}
+\input{class_diccionario_1_1_c_bloque}
+\input{class_diccionario_1_1_c_cubeta_h}
+\input{class_diccionario_1_1_c_entidad}
+\input{class_diccionario_1_1_c_hash}
+\input{class_diccionario_1_1_c_indice_s_i}
+\input{class_diccionario_1_1_c_ing_dat_h_e}
+\input{class_diccionario_1_1_c_ing_dat_mll}
+\input{class_diccionario_1_1_c_ing_dat_s_i}
+\input{class_diccionario_1_1_c_ingre_dat}
+\input{class_diccionario_1_1_c_mantenimiento}
+\input{class_diccionario_1_1_c_mod_hs_dat}
+\input{class_diccionario_1_1_c_mod_ml_dat}
+\input{class_diccionario_1_1_c_mod_s_dat}
+\input{class_diccionario_1_1_c_mod_s_i_dat}
+\input{class_diccionario_1_1_c_multillave}
+\input{class_diccionario_1_1_c_sec_index}
+\input{class_diccionario_1_1_c_secuencial}
+\input{class_diccionario_1_1_d_alta_atr}
+\input{class_diccionario_1_1_d_baja_atr}
+\input{class_diccionario_1_1_d_baja_ent}
+\input{class_diccionario_1_1_diccionario}
+\input{class_diccionario_1_1_d_m_clave_p}
+\input{class_diccionario_1_1_d_modifica_atr}
+\input{class_diccionario_1_1_d_modificar_ent}
+\input{class_diccionario_1_1_d_nombre}
+\chapter{Documentación de archivos}
+\input{_c_archivo_8cs}
+\input{_c_atributo_8cs}
+\input{_c_bloque_8cs}
+\input{_c_cubeta_h_8cs}
+\input{_c_entidad_8cs}
+\input{_c_hash_8cs}
+\input{_c_hash_8_designer_8cs}
+\input{_c_indice_s_i_8cs}
+\input{_c_ing_dat_h_e_8cs}
+\input{_c_ing_dat_h_e_8_designer_8cs}
+\input{_c_ing_dat_mll_8cs}
+\input{_c_ing_dat_mll_8_designer_8cs}
+\input{_c_ing_dat_s_i_8cs}
+\input{_c_ing_dat_s_i_8_designer_8cs}
+\input{_c_ingre_dat_8cs}
+\input{_c_ingre_dat_8_designer_8cs}
+\input{_c_mantenimiento_8cs}
+\input{_c_mod_hs_dat_8cs}
+\input{_c_mod_hs_dat_8_designer_8cs}
+\input{_c_mod_ml_dat_8cs}
+\input{_c_mod_ml_dat_8_designer_8cs}
+\input{_c_mod_s_dat_8cs}
+\input{_c_mod_s_dat_8_designer_8cs}
+\input{_c_mod_s_i_dat_8cs}
+\input{_c_mod_s_i_dat_8_designer_8cs}
+\input{_c_multillave_8cs}
+\input{_c_multillave_8_designer_8cs}
+\input{_c_sec_index_8cs}
+\input{_c_sec_index_8_designer_8cs}
+\input{_c_secuencial_8cs}
+\input{_c_secuencial_8_designer_8cs}
+\input{_d_alta_atr_8cs}
+\input{_d_alta_atr_8_designer_8cs}
+\input{_d_baja_atr_8cs}
+\input{_d_baja_atr_8_designer_8cs}
+\input{_d_baja_ent_8cs}
+\input{_d_baja_ent_8_designer_8cs}
+\input{_d_m_clave_p_8cs}
+\input{_d_m_clave_p_8_designer_8cs}
+\input{_d_modifica_atr_8cs}
+\input{_d_modifica_atr_8_designer_8cs}
+\input{_d_modificar_ent_8cs}
+\input{_d_modificar_ent_8_designer_8cs}
+\input{_d_nombre_8cs}
+\input{_d_nombre_8_designer_8cs}
+\input{_form1_8cs}
+\input{_form1_8_designer_8cs}
+\input{_program_8cs}
+%--- End generated contents ---
+
+% Index
+\newpage
+\phantomsection
+\addcontentsline{toc}{part}{Índice}
+\printindex
+
+\end{document}
